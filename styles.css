@@ -1,0 +1,33 @@
+html {
+  text-align: center;
+}
+
+body {
+  font-family: monospace;
+  font-size: 20px;
+  height: 95vh;
+  display: flex;
+  background: repeating-linear-gradient(
+    -45deg,
+    #e7e1e1,
+    #eddada 10px,
+    #e5d0d0 10px,
+    #f3e5e5 20px
+  );
+}
+
+img {
+  height: 47vh;
+  border-radius: 20px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  margin: auto;
+}
+
+.box {
+  padding: 20px;
+  margin: auto 10px;
+  background-color: #f9f3ec;
+  border: #a5eda6 1px solid;
+  border-radius: 20px;
+}
